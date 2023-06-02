@@ -1,6 +1,6 @@
 In a C# program, properties are used to define the characteristics of a class. A property typically consists of a pair of get and set accessor methods, which are used to read or set the value of a private field. Properties can be used to control data access and perform logical operations on the properties.
 
-When you decide to share your project with other developers via an API service, it can be helpful to assist the receiving developer by converting your C# property classes to TypeScript property interfaces. In this example program, we aim to load the DLL file in a specified folder defined by BasePath, read and list the property classes within it, and convert those classes into TypeScript property code and save it to a file.
+When you decide to share your project with the outside world through an API service, it can be helpful to assist the receiving developer by converting your C# property classes and enums to TypeScript property classes and enums. In this example project, we aim to convert our C# property classes and enum structures to TypeScript property classes and enums, specifically for projects prepared in TypeScript.
 
 The main workflow of the program consists of the following steps:
 
